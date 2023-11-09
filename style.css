@@ -1,0 +1,179 @@
+@media only screen and (max-width: 667px) {
+    
+    body.intro {
+        background-image:url(/images/achtergrondmoestuinwebsite.jpg);
+        background-size:cover;
+        padding: 0em;
+        margin: 0em;
+    }
+
+    body.HP {
+        background-image:url(/images/achtergrondhoofdpagina.jpg);
+        background-size:cover;
+        padding: 0em;
+        margin: 0em;
+        overflow-y: hidden;
+    }
+
+    body.overons {
+        background-image: url(/images/achtergrondoveronss.jpg);
+        background-size: 375px 667px;
+        padding: 0em;
+        margin: 0em;
+        overflow-x: hidden;
+    }
+    body.les {
+        background-image: url(/images/achtergrondles.jpg);
+        background-size: 375px 667px;
+        margin: 0em;
+    }
+
+    h1 {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background: #f2f0de;
+        padding: 15px; 
+        margin-top: 2em;
+        margin-right: 2em;
+        color: #334eac;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+
+    h2 {
+        border-radius: 25px;
+         background: #334eac;
+        padding: 20px;
+        margin-top: 5em;
+        margin-right: 2em;
+        margin-left: 2em;
+        color: #f2f0de;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h3 {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background: #f2f0de;
+        padding: 20px;
+        transition-property: padding;
+        transition-duration: 1s; 
+        margin-left: 6em;
+        margin-bottom: 2em;
+        color: #334eac;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    h2.uitleg {
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #334eac;
+        background-color: #f2f0de;
+        margin-top: 2em;
+    }
+
+    a {
+        color: #334eac;
+        text-decoration: none;
+    }
+
+    .klik {
+        color: #f2f0de;
+    }
+    
+    h3:hover{
+        padding: 30px;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 7.5em;
+        gap: 1em;
+    }
+
+    p { 
+        border-radius: 25px;
+        background: #334eac;
+        width: 145px;
+        height: 125px;
+        text-align: center;
+        padding-top: 0.75em;
+        padding-left: 0.1em;
+        padding-right: 0.2em;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #f2f0de;
+    }
+
+    .inhoud {
+        width: 350px;
+        height: 450px;
+        color: #334eac;
+        font-family: "operetta-52", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 15px;
+        background-color: #f2f0de;
+        line-height: 1.8em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .pvdw { 
+        border-radius: 25px;
+        background: #334eac;
+        width: 310px;
+        height: 120px;
+        text-align: center;
+        padding-top: 0.75em;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #f2f0de;
+        margin-left: 30px;
+        margin-right:30px ;
+        margin-top: 0em;
+        line-height: 0.7em;
+    }
+
+    span {
+        font-family: "operetta-52", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+
+    .demo {
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #334eac;
+        background-color: #f2f0de;
+        margin-top: 2em;
+    }
+
+    ol {
+        font-family: "operetta-52", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        color: #334eac;
+    }   
+}
