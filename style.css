@@ -1,14 +1,14 @@
 @media only screen and (max-width: 667px) {
     
     body.intro {
-        background-image:url(../images/achtergrondmoestuinwebsite.jpg);
+        background-image:url("../images/achtergrondmoestuinwebsite.jpg");
         background-size:cover;
         padding: 0em;
         margin: 0em;
     }
 
     body.HP {
-        background-image:url(../images/achtergrondhoofdpagina.jpg);
+        background-image:url("../images/achtergrondhoofdpagina.jpg");
         background-size:cover;
         padding: 0em;
         margin: 0em;
@@ -16,14 +16,14 @@
     }
 
     body.overons {
-        background-image: url(../images/achtergrondoveronss.jpg);
+        background-image: url("../images/achtergrondoveronss.jpg");
         background-size: 375px 667px;
         padding: 0em;
         margin: 0em;
         overflow-x: hidden;
     }
     body.les {
-        background-image: url(../images/achtergrondles.jpg);
+        background-image: url("../images/achtergrondles.jpg");
         background-size: 375px 667px;
         margin: 0em;
     }
